@@ -22,12 +22,12 @@ git clone https://github.com/luizdeh/teste-neoway.git
 cd teste-neoway
 ```
 
-3. Once inside, spin up the Docker container:
+3. Once inside, spin up the Docker container (to run the container in the background, do `docker-compose up -d` instead):
 ```
-docker-compose up -d
+docker-compose up
 ```
 
-4. To check if everything ran smoothly, run:
+4. If you ran it in the background, you can check if everything ran smoothly (may take up to a minute, depending on your local machine and internet connection):
 ```
 docker-compose logs app
 ```
@@ -46,4 +46,3 @@ docker-compose logs app
 ```
 docker-compose down
 ```
-
